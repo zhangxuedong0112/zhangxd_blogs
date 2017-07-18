@@ -2,10 +2,11 @@
 title: MongoDB 搭建
 categories: "MongoDB" #文章分類目錄 可以省略
 date: 2017-07-18 17:55:36
-tags:
+tags: "DB"
 ---
 
-## Quick Start
+<!--## Quick Start-->
+![Alt text](../../img/zhangxuedong.jpg)
 
 ``` bash
 1. wget https://fastdl.mongodb.org/linux/mongodb-linux-i686-2.6.7.tgz?_ga=1.68265944.858401362.1421216907
