@@ -6,7 +6,7 @@ tags: "DB"
 ---
 
 <!--## Quick Start-->
-![Alt text](../../img/zhangxuedong.jpg)
+![Alt text](../../zhangxd/img/zhangxuedong.jpg)
 
 ``` bash
 1. wget https://fastdl.mongodb.org/linux/mongodb-linux-i686-2.6.7.tgz?_ga=1.68265944.858401362.1421216907
