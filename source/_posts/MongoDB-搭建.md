@@ -5,9 +5,11 @@ date: 2017-07-18 17:55:36
 tags: "DB"
 ---
 
-<!--## Quick Start-->
+## mongodb的搭建步骤
 <!--![Alt text](../../zhangxd/img/zhangxuedong.jpg)-->
-![Alt text](/img/zhangxuedong.jpg)
+![Alt text](/img/mongo.jpg)
+
+<!--more-->
 
 ``` bash
 1. wget https://fastdl.mongodb.org/linux/mongodb-linux-i686-2.6.7.tgz?_ga=1.68265944.858401362.1421216907
