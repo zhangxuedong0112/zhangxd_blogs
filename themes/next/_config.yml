@@ -190,6 +190,9 @@ post_meta:
   updated_at: false
   categories: true
 
+passage_end_tag:
+  enabled: true
+
 # Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
@@ -198,6 +201,9 @@ post_wordcount:
   min2read: false
   separated_meta: true
 
+disqus_shortname: your-disqus-shortname
+
+baidu_analytics: 7eb795799cf70408027ab1bc665a7596
 # Wechat Subscriber
 #wechat_subscriber:
   #enabled: true
@@ -518,7 +524,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false
