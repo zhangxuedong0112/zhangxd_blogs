@@ -66,10 +66,10 @@ mongo 127.0.0.1:27017
 use admin
 config={_id:"repmore",members:[{_id:0,host:"127.0.0.1:27017"},{_id:1,host:"127.0.0.1:27018"},{_id:2,host:"127.0.0.1:27019"}]};
 rs.initiate(config); 初始化
-在这里要注意，rs.initiate初始化也是要一定时间的，刚执行完rs.initiate，我就查看状态，从服务器的stateStr不是SECONDARY，而是stateStr" : "STARTUP2"，等一会就好了。
+在这里要注意，rs.initiate初始化也是要一定时间的，刚执行完rs.initiate，我就查看状态，从服务器的stateStr不是SECONDARY，而是stateStr : "STARTUP2"，等一会就好了。
 rs.status() 产看状态
-rs.remove("127.0.0.1:27019”)//删除
-rs.add("127.0.0.1:27019”)//添加 
+rs.remove("127.0.0.1:27019")//删除
+rs.add("127.0.0.1:27019")//添加 
 
 测试
 主
@@ -79,7 +79,7 @@ rs.add("127.0.0.1:27019”)//添加
 4. switched to db test  
 5. repmore:PRIMARY> db.test.insert({'name':'tank','phone':'12345678'});  
 6. repmore:PRIMARY> db.test.find();  
-7. { "_id" : ObjectId("52af64549d2f9e75bc57cda7"), "name" : "tank", "phone" : "12345678” }
+7. { "_id" : ObjectId("52af64549d2f9e75bc57cda7"), "name" : "tank", "phone" : "12345678" }
 从
 1. [root@localhost mongodb]# mongo 127.0.0.1:27018   //连接  
 2. MongoDB shell version: 2.4.6  
